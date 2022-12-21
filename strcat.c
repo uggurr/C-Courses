@@ -4,5 +4,9 @@
 
 int main()
 {
-    
+    char bos[80];
+
+    strcpy(bos,"Benim");
+
+    strcat(bos, " adim");
 }
