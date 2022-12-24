@@ -20,7 +20,7 @@ int main()
     else if (harf >= 97 && harf <= 122)
     {
         r = (harf - 97) + 1;
-        printf("Girdiginiz sayi %d. harftir.",r);
+        printf("%c Alfabede %d. harftir.",harf,r);
     }
     else
         printf("Lutfen bir harf giriniz");
