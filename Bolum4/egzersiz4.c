@@ -23,9 +23,8 @@ int main()
         i++;  
     }
 
-    enCok = kucukHarf[0];
-    harf = 'a';
-    for(i = 1; i < 26; i++)
+    enCok = 0;
+    for(i = 0; i < 26; i++)
     {
         if(kucukHarf[i] != 0)
         {
@@ -33,7 +32,8 @@ int main()
             {
                 enCok=kucukHarf[i];
                 harf = i + 'a';
-            }   
+            }
+   
         }
     }
     printf("En fazla kullanilan harf: %c",harf);
