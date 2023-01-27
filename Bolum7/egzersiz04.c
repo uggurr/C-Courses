@@ -30,7 +30,9 @@ void get_matris(int n, int m, int matris[n][m])
 
 void ft_print(int n, int m, int matris[n][m])
 {
+    printf("Girmis oldugunuz verilere gore olusan matris; \n");
     int i = 0;
+    printf("---------\n");
     while (i < n)
     {
         int j = 0;
@@ -79,10 +81,11 @@ int main()
     printf("M = ");
     scanf("%d",&m);
     int matris[n][m];
+    printf("*************************************\n");
     get_matris(n, m, matris);
-
+    printf("*************************************\n");
     ft_print(n, m, matris);
-
+    printf("*************************************\n");
     finder(&min, &max, &sum, n, m, matris);
     printf("En buyuk sayi = %d\n", max);
     printf("En kucuk sayi = %d\n", min);
