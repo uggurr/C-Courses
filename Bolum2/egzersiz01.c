@@ -15,7 +15,6 @@ int main()
 
     printf("Lutfen a, b, c ve x sayilarini giriniz: ");
     scanf("%d %d %d %d",&a,&b,&c,&x);
-
     sonuc = (a*(x*x))+(b*x)+c;
     printf(" Sonuc: %d",sonuc);
 }
